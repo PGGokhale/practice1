@@ -1,0 +1,3424 @@
+Programming Assignments
+=================================
+=================================
+
+
+
+
+Back to the Top
+
+
+
+	############################################################################
+	Your Name and Favorites (print)
+	############################################################################
+	Program #0A - Write a program that prints out your name and:
+                 My favorite color is ???.
+                 My favorite song is ???.
+                 My favorite tv program is ???.
+                 My favorite food is ???.
+                 
+                 Remember, a computer runs or executes our commands (instructions)
+                 in the order that we specify.
+                 
+                 You will be using the print instruction (command).
+                 Example: print("I love music")
+                 
+                 Sample Output:
+                 My favorite color is red.
+                 My favorite song is Fun, Fun, Fun.
+                 My favorite tv program is Star Trek.
+                 My favorite food is turkey.
+
+                 
+
+	############################################################################
+	Your Name and Favorites (print)
+	############################################################################
+	Program #0B - Write a program that prints out some math expressions:
+				 
+                 Remember, a computer runs or executes our commands (instructions)
+                 in the order that we specify.
+                 
+                 You will be using the print instruction (command).
+                 Type in the following code or make up some on your own: 
+                 print("2 + 8 - 5")
+                 print(2 + 8 - 5)
+                 print()
+                 
+                 print("2 * 8 - 5")
+                 print(2 * 8 - 5)
+                 print()
+                 
+                 print("2 * 8 / 4")
+                 print(2 * 8 / 4)
+                 print()
+                 
+                 Sample Output:
+                 2 + 8 - 5
+                 5
+                 
+                 2 * 8 - 5
+                 11
+                 
+                 2 * 8 / 4
+                 4
+                 
+					
+	
+	
+
+    ############################################################################
+    Welcome (Read from the keyboard or stdin, print, String concatenation (+)
+    ############################################################################
+	Program #1 - Write a program that prompts the user to enter their first name.
+				 Print out Welcome first name! (use the + operator to join strings)
+				 The command or instruction to let the user enter information is:
+				 firstName = input("Enter your first name: ")
+				 
+				 firstName is a variable name that I made up.
+				 Variables can hold data (Strings, numbers, etc.)
+				 When you make up a variable name to hold data, you must
+				 start with a letter of the alphabet, followed by more 
+				 letters and/or digits (no spaces or special characters).
+				 
+				 
+				 Here is some starting code that you can type in to get
+				 started.
+				 
+				 print("Welcome")
+				 print()
+				 print()
+				 firstName = input("Enter your first name: ")
+				 etc.
+
+
+				 Sample Output:
+				 
+				 Welcome
+				 
+				 
+				 Enter your first name: (user enters a name like maybe Tom)
+				 
+				 Welcome Tom!
+				 
+
+				 
+				 
+	############################################################################
+	Welcome (Read from the keyboard or stdin, print, String concatenation (+)
+	############################################################################
+	Program #2 - Write a program that prompts the user to enter their first name.
+				 Then prompt the user to enter their last name.
+				 Print out Welcome, first name space last name
+							
+							
+				 Sample Output:
+				 
+				 Welcome
+				 
+				 
+				 Enter your first name: (user enters first name like maybe Tom)
+				 Enter your last name:  (user enters last name like maybe Baker)
+				 
+				 Welcome, Tom Baker!
+				 
+				 
+				 
+
+    ############################################################################
+    Area of a Rectangle  (Read from the keyboard or stdin (input), print(), math operations)
+    ############################################################################
+	Program #3 - Write a program that prompts the user for the length and width
+                 of a rectangle, calculates the area, and prints out:
+				 The area of the rectangle is ???
+
+				 Here is some starting code.
+				 print("Area of a Rectangle")
+				 print()
+				 print()
+				 length = int(input("Enter the length of a rectangle: "))
+				 etc.
+
+
+				 Sample Output:
+				 
+				 Area of a Rectangle
+				 
+
+				 Enter the length of a rectangle: (user enters maybe 8)
+				 Enter the width of a rectangle:  (user enters maybe 5)
+				 
+				 The area is 40 square units.
+				 
+				 
+				 
+				 
+	############################################################################
+	Area of a Circle (Read from the keyboard (input), print(), math operations)
+	############################################################################
+	Program #4 - Write a program that prompts the user for the radius of a circle,
+                 calculate the area, and then print out:
+				 The area of the circle is ???.???? square units.
+				 Use math.pi for pi.  
+				 NOTE: Add:  import math  at the top of your program and say math.pi
+					   Or use:  from math import * (and just say pi)
+					   
+					   
+				 Sample Output:
+				 
+				 Area of a Circle
+				 
+
+				 Enter the radius of a circle: (user enters maybe 5)
+				 
+				 The area of the circle is 78.53975 square units.
+				 
+				 
+	
+	
+	############################################################################
+	Celsius to Fahrenheit (Read from the keyboard(input), print(), math operations)
+	############################################################################
+	Program #5 - Write a program that prompts the user for the Fahrenheit temperature,
+                 calculate the Celsius temperature and then print out:
+				 (celsius = 5/9 * (fahrenheit - 32)
+				 
+				 The Celsius temperature is ???.???? degrees.
+
+				 				 
+				 Sample Output:
+				 
+				 Fahrenheit to Celsius
+				 
+				 
+				 Enter the Fahrenheit temperature: (user enters maybe 70)
+				 
+				 The Celsius temperature is ???.???? degrees.
+				 
+				 (70 degrees Fahrenheit is about 21.1111111111111 degrees in Celsius) 
+				 
+				 
+    ############################################################################
+    Surface Area of a Cube (Read from the keyboard(input), print(), math operations)
+    ############################################################################
+	Program #6 - Write a program that prompts the user for the length of a side for a cube,
+                 calculate the surface area (6*side*side), and then print out:
+				 The surface area of the cube is ???.???? square units.
+				 You can use the double type or an integer type for your variables.
+				 
+				 Sample Output:
+				 
+				 Surface Area of a Cube
+				 
+				 
+				 Enter the length of one side: (user enters maybe 4)
+				 
+				 The surface area is ???.???? square units
+	
+				 (if one side is 5, the surface area is 150.0 square units)
+
+				 
+    ############################################################################
+    Batting Average (Read from the keyboard(input), print(), math operations)
+    ############################################################################
+	Program #7A - Write a program that prompts the user for the number of hits,
+	              the number of at bats, and the number of walks.
+				  You can call your variables hits, atBats, and walks.
+                  Find the batting average and the on base percentage:
+				  battingAvg = hits/atBats
+				  onBasePCT = (hits + walks) / (atBats + walks)
+
+				 Sample Output:
+				 
+				 Batting Average
+				 
+				 
+				 Enter the number of hits:    (user enters maybe 2)
+				 Enter the number of at bats: (user enters maybe 8)
+				 Enter the number of walks:   (user enters maybe 2)
+
+				 The user's batting average is  .250
+				 The user's on base average is .400  
+				
+
+				 
+    ############################################################################
+    Throwing Percentage (Read from the keyboard(input), print(), math operations)
+    #### (also called passing percentage)
+    ############################################################################
+	Throwing Percentage #7B - Write a program that prompts the user for the number 
+	             of passes completed and the number of passes thrown.
+				 You can call your variables passesCompleted and passesAttempted.
+                 Find the throwing percentage:
+				 throwingPCT = passesCompleted/passesAttempted
+				 
+				 Sample Output:
+				 
+				 Throwing Percentage
+				 
+				 
+				 Enter the number of passes completed:       (user enters maybe 4)
+				 Enter the number of passes thrown:          (user enters maybe 8)
+
+				 The throwing percentage is  .500
+
+
+
+    ############################################################################
+    Winning Percentage (Read from the keyboard(input), print(), math operations)
+    ############################################################################
+	Winning Percentage #7C - Write a program that prompts the user for the number 
+	             of wins and the number of losses.
+				 You can call your variables wins and losses.
+				 winningPCT = wins/(wins + losses)
+				 
+                 Find the winning percentage:
+
+
+				 Sample Output:
+				 
+				 Winning Percentage
+				 
+				 
+				 Enter the number of wins:    (user enters maybe 3)
+				 Enter the number of losses:  (user enters maybe 7)
+
+				 The winning percentage is  .300
+
+				
+    ############################################################################
+    Slope of a Line (Read from the keyboard(input), print(), math operations, if else)
+    ############################################################################
+	Program #7D - Write a program that prompts the user for two points (2D).
+				 You can call your variables x1,y1 and x2,y2.
+                 Find the slope of the line, and then print out:
+				 The slope of the line is ???.????
+				 slope = (y2 - y1) / (x2 - x1)
+
+				 Sample Output:
+				 
+				 The Slope of a Line
+				 
+				 
+				 Enter the value for x1: (user enters maybe 1)
+				 Enter the value for y1: (user enters maybe 1)
+
+				 Enter the value for x2: (user enters maybe 2)
+				 Enter the value for y2: (user enters maybe 2)
+				 
+				 The slope of the line is ???.????
+
+				 (The slope for (1,1) and (2,2) is 1.0)
+
+
+    ############################################################################
+    Letter Grades (Read from the keyboard, print, math operations, if else if)
+    ############################################################################
+	Program #8 - Write a program that prompts the user for a numerical grade.
+                 Find the letter grade, and then print out:
+				 The letter grade is ?.
+				 You can use an integer type for your input variable.
+				 
+				 95 and above - A
+				 87 - 94      - B
+				 75 - 86      - C
+				 70 - 74      - D
+				 69 and below - F
+				 
+				 
+				 Sample Output:
+				 
+				 Letter Grades
+				 
+				 
+				 Enter the numerical grade: (user enters maybe 82)
+				 
+				 The letter grade is a C
+			
+			
+				 
+    ############################################################################
+    Positive or Negative or Zero (Read from the keyboard, print, math operations, 
+    if else if)
+    ############################################################################
+	Program #9 - Write a program that prompts the user for a number,
+                 and then prints out:
+				 The number is positive or negative or zero.
+				 You can use an integer type for your input variable.
+
+                 Sample Output:
+				 Postive or Negative or Zero?
+				 
+				 
+				 Enter a number: (user enters maybe 7)
+				 
+				 7 is a positive number.
+
+
+
+
+ 				 
+
+    ############################################################################
+    Multiplication Table (Read from the keyboard, print, 
+                 math operations, for loops)
+    ############################################################################
+	Program #10 - Write a program that prompts the user to enter a number.
+				 Print out a multiplication table for that number.
+				 You can use the integer type for your variable.
+
+
+				 Multiplication Table
+				 
+				 
+				 Enter a number (0 - 9): (user enters maybe 7)
+
+                 for x in range(0,10):
+                     ???????
+				 7 x 2  = 14
+				 ...
+				 7 x 9  = 63
+				 
+
+    ############################################################################
+    The Guessing Game(Read from the keyboard, print, 
+                 math operations, while loops)
+    ############################################################################
+	Program #11 - Write a program that prompts the user to enter a number.
+				 The user will be guessing a number between 1 - 100.
+				 Use  number = random.randrange(1,101)
+				 They will get 7 guesses to win, else they lose.
+				 You can use the integer type for your variable.
+				 Use a for loop.  for numTries in range(1,8):
+
+
+Sample Run:
+
+The Guessing Game
+
+
+low = 1  high = 100
+Enter your guess: 50
+You number is too low!
+
+low = 51  high = 100
+Enter your guess: 75
+Your number is too high!
+
+low = 51  high = 74
+Enter your guess: 63
+Your number is too high!
+
+low = 51  high = 62
+Enter your guess: 56
+You number is too low!
+
+low = 57  high = 62
+Enter your guess: 60
+Your number is too high!
+
+low = 57  high = 59
+Enter your guess: 58
+You number is too low!
+
+low = 59  high = 59
+Enter your guess: 59
+
+You guessed the number!!!				 
+				 
+
+An Outline for the Guessing Game
+
+
+
+import random
+
+
+# print out the title "The Guessing Game"
+
+
+
+# print two blank lines
+
+
+
+# declare a variable called low and set it to 1
+# then declare a variable called high and set it to 100
+
+
+
+# declare a variable called number to hold the 
+# computer's number that the user will try to guess
+# use random.randrange(1,101)
+
+# declare a variable called userGuess that will hold the
+# user's guess and set it to 0.
+
+
+# declare a variable called numTries that will hold the
+# user's number of tries and set it to 1.
+
+
+
+# now we will loop
+
+while numTries <= 7:
+
+    print("low =",low," high =", high)
+    
+    
+    # ask the user to enter your guess and store
+    # it in a variable called userGuess
+    # convert the input to an int
+    
+
+
+    # check and see if the userGuess == number
+    # and if so break out of the loop
+    # the keyword to break out of the loop is break
+
+
+
+    # elif check and see if the userGuess < number
+    # and if so:
+    # print out "Your number is too low!"
+    # and then set low = userGuess + 1
+
+
+
+
+    # else:
+    # print out "Your number is too high!"
+    # and then set high = userGuess - 1
+
+
+
+    # add 1 to the variable location called numTries    
+
+    
+    print()
+    
+
+print()
+
+# check and see if userGuess == number:
+# and if so print out "You guessed the number!!!"
+
+
+
+# else:
+# print out "You lose.  The number was",number
+
+
+
+
+
+
+    ############################################################################
+    The Dice Game(Read from the keyboard, print, 
+                 math operations, while loops)
+    ############################################################################
+	Program #12 - Write a program that simulates tossing dice.
+
+				 The user will toss dice (2).
+				 You will be getting two numbers between 1 and 6 (inclusive).
+				 die1 = random.randrange(1,7)
+                 die2 = random.randrange(1,7)
+				 You will add these numbers together.
+				 If the sum is 7 or 11, the player wins, else they lose.
+				 You can use the integer type for your variable.
+
+Sample Run:
+
+The Dice Game
+
+
+Are you ready to toss the dice (Yes or No)? y
+
+You tossed a 7 .  You win!
+
+Are you ready to toss the dice (Yes or No)? y
+
+You tossed a 6 .  You lose!
+
+Are you ready to toss the dice (Yes or No)? y
+
+You tossed a 7 .  You win!
+
+Are you ready to toss the dice (Yes or No)? y
+
+You tossed a 12 .  You lose!
+
+Are you ready to toss the dice (Yes or No)? n
+
+
+Wins: 2
+Losses: 2
+
+Thank you for playing dice!!!
+
+				 
+
+    ############################################################################
+	Factors of a Number
+    ############################################################################
+	Program #13 - Write a program that prompts the user to enter a number.
+				  Print out all of the factors of the number
+				  You can use the integer type for your variable.
+
+				 Sample Output:
+				 
+				 The Factors of a Number
+				 
+				 
+				 Enter a number: (user enters maybe 8)
+				 
+				 The factors of 8 are: 1 2 4 8
+				 
+				 
+				  
+				  
+	############################################################################
+    Print the factors of a number and how many factors (Read from the keyboard, 
+				 print, math operations % ==, for loops, if else)
+	############################################################################
+	Program #14 - Write a program that prompts the user to enter a number.
+				  Print out all of the factors of the number and how many factors.
+				  You can use the integer type for your variables.
+				  You will need a count variable starting at 0.
+				  You will need a for loop to loop through all the possible 
+				  divisors (1 - number):  for d in range(1,number+1)
+
+				 Sample Output:
+				 
+				 The Factors of a Number
+				 
+				 
+				 Enter a number: (user enters maybe 8)
+				 
+				 The factors of 8 are: 1 2 4 8
+				 There are 4 factors.
+				 
+				 
+				 
+				  
+	############################################################################
+    Print the GCF of two numbers (Read from the keyboard, 
+				 print, math operations % ==, for loops, if else, &&)
+	############################################################################
+	Program #15 - Write a program that prompts the user to enter two numbers.
+				  Print out the GCF of the two numbers.
+				  You can use the integer type for your variables.
+				  Stay in a loop until the user enters 0
+				  
+				 Sample Output:
+				 
+				 The GCF of two Numbers
+				 
+				 
+				 Enter the first number : (user enters maybe 8)
+				 Enter the second number: (user enters maybe 12)
+				 
+				 The GCF of 8 and 12 is 4
+
+				 
+				 Enter the first number : (user enters maybe 12)
+				 Enter the second number: (user enters maybe 16)
+				 
+				 The GCF of 12 and 16 is 4
+
+				 
+				 Enter the first number : (user enters maybe 0)
+
+				 
+				 Goodbye!
+				 
+
+				 
+				  
+
+				  
+	############################################################################
+    Print the GCF of two numbers (Read from the keyboard, 
+				 print, math operations % ==, for loops, if else, &&, and functions)
+	############################################################################
+	Program #16 - Write a program that prompts the user to enter two numbers.
+				  Print out the GCF of the two numbers.
+				  Write a function called gcf.  Call the function to get your result. 
+				  Stay in a loop until the user enters 0 0
+
+				  define gcf(num1, num2):
+				  
+				  
+				  
+				  
+				  You can use the integer type for your variables.
+
+				  Sample Output:
+				 
+				  The GCF of two Numbers
+				 
+				 
+    			  Enter the first number : (user enters maybe 8)
+				  Enter the second number: (user enters maybe 12)
+				 
+				  The GCF of 8 and 12 is 4
+
+				 				 
+				  Enter the first number : (user enters maybe 12)
+				  Enter the second number: (user enters maybe 16)
+				 
+				  The GCF of 12 and 16 is 4
+
+				 
+				  Enter the first number : (user enters maybe 0)
+				 
+				  Goodbye!
+				 
+
+				 
+				  
+
+				  
+
+    ############################################################################
+    Print the sum of the digits of a number (Read from the keyboard, 
+				 print, math operations, % ==, for loops, functions )
+	############################################################################
+	Program #17 - Write a program that prompts the user to enter a number.
+				  Print out the sum of the digits for the number.
+				  Write a function to find the sum.
+				  Stay in a loop until the user enters 0
+
+				  def sum(num):
+				      if num == 0:
+				          return 0
+				      if num < 0:
+				          num = abs(num) 
+				      sum = 0
+				      while num > 0:
+				          rightDigit = num % 10
+				          sum = sum + rightDigit # adds right digit to sum
+				          num = num // 10 # divides by 10 and throws away fraction
+				      # now return the sum    
+
+                  # main program is below
+                  
+				  # print title
+				  # print 2 blank lines
+				  			  
+				  while True:
+				     # input your number
+				     
+				     # see if the number is 0, and if so, break the loop
+				     
+				     # print out the result (call sum(num))
+
+                  # print out "Goodbye"
+                  
+                  
+				  Sample Output:
+				 
+				  The Sum of the Digits for a Number
+				 
+				 
+				  Enter a number: (user enters maybe 123)
+				 
+				  The sum of the digits of 123 is 6.
+
+				 
+				  Enter a number: (user enters maybe 325)
+				 
+				  The sum of the digits of 325 is 10.
+
+				 
+				  Enter a number: (user enters maybe 0)
+				 
+				  Goodbye!
+
+				 
+
+
+
+				  
+	############################################################################
+    Print the vowels of a String (Read from the keyboard, 
+				 print, slicing, for loops, if else, &&)
+	############################################################################
+	Program #18 - Write a program that prompts the user to enter a String.
+				  Print out each vowel in the String (a, e, i, o, u).
+				  You can use the String type for your variable.
+				  Stay in a loop until the user enters the empty String.
+
+                  Hint: 
+                  for ch in myString:
+                      if ch == "a" or ch == "e":  # finish this
+                          # print (ch, end="")
+                  
+				  Sample Output:
+				 
+				  The Vowels in a String
+				 
+				 
+				  Enter a String: (user enters maybe catalog)
+				 
+				  The vowels of catalog are: aao
+				  
+				  
+				  Enter a String: (user enters maybe computer)
+				 
+				  The vowels of computer are: oue
+				  
+
+				  Enter a String: (user enters maybe nothing)
+				 
+				  Goodbye!
+				  
+				  
+				  
+	############################################################################
+    Print the capital letters of a String (Read from the keyboard, 
+				 print, slicing, for loops, if else, &&)
+	############################################################################
+	Program #19 - Write a program that prompts the user to enter a String.
+				  Print out each capital letter in the String.
+				  Stay in a loop until the user enters the empty String.
+                  Hint: if ch >= 'A' and ch <= 'Z':
+
+				  Sample Output:
+				 
+				  The Capital Letters in a String
+				 
+				 
+				  Enter a String: (user enters maybe CatALog)
+				 
+				  The capital letters of CatALog are: CAL
+				  
+				  
+				  Enter a String: (user enters maybe ComPuTer)
+				 
+				  The capital letters of ComPuTer are: CPT
+				  
+
+				  Enter a String: (user enters maybe nothing)
+				 
+				  Goodbye!
+				  
+
+
+
+
+
+				  
+
+	############################################################################
+	Prime Numbers
+    ############################################################################
+	Program #20 - Write a program that prompts the user to enter a number.
+				  Print out whether the number is prime or not.
+				  Write a function to find the result (boolean).
+				  Hint: A prime number has exactly 2 factors.
+				        Count the factors as you find them.
+				        Check the count after your loop has finished,
+				        and see if you have exactly 2, and return True
+				        Otherwise return False.
+				        
+				  Stay in a loop until the user enters 0
+
+				  def isPrime(num):
+				      count = 0
+				      
+				      # loop and count all of the divisors of num
+				      
+				      # check and see if count is == to 2, and if
+				      # so return True
+				      # otherwise return False
+				      
+				  		
+				  		
+				  				  
+				  
+                  # main program
+                  # print the title
+                  # print 2 blank lines
+                  
+                  while True:
+                      # prompt the user to enter a number
+                      
+                      # print a blank line
+                      
+                      # check and see if the number is 0, and if so
+                      # break out of the loop
+                      
+                      if isPrime(number):
+                          # print out the number is prime.
+                      else:
+                          # print out the number is NOT prime.
+                  
+                  
+                  
+                  
+				  Sample Output:
+				 
+				  Prime Numbers
+				 
+				 
+				  Enter a number: (user enters maybe 8)
+				 
+				  8 is NOT prime.
+				 
+				 
+				  Enter a number: (user enters maybe 17)
+				 
+				  17 is prime.
+				 
+				 
+				  Enter a number: (user enters maybe 0)
+				 
+				  Goodbye!
+				  
+				  
+
+	############################################################################
+	Perfect Numbers
+    ############################################################################
+	Program #21 - Write a program that prompts the user to enter a number.
+				  Print out whether the number is perfect or not.
+				  A perfect number has divisors that add up to the number.
+				  For example, 6 is perfect since factors 1, 2, 3 add to 6.
+				  Write a function to find the result (boolean True or False).
+				  Stay in a loop until the user enters 0
+
+				  def isPerfect(num):
+				      sum = 0
+				      
+				      # loop through all of the possible factors, but
+				      # do NOT include the number itself
+				      # if you find a factor, then add it to the sum
+				      # sum = ??? + num
+				  
+				      # check and see if the sum == num, and if
+				      # so, return True else return False
+				  
+
+				  Sample Output:
+				 
+				  Perfect Numbers
+				 
+				 
+				  Enter a number: (user enters maybe 8)
+				 
+				  8 is NOT perfect.
+				 
+				 
+				  Enter a number: (user enters maybe 6)
+				 
+				  6 is perfect.
+				 
+				 
+				  Enter a number: (user enters maybe 0)
+				 
+				  Goodbye!
+				  
+				  
+				 
+	############################################################################
+	Base Two Numbers
+    ############################################################################
+	Program #22 - Write a program that prompts the user to enter a number.
+				  Print out the number in base 2.
+				  You can use the integer type for your variable.
+				  Call the bin(number) function to find the result (String).
+				  Stay in a loop until the user enters 0
+
+				  Base 2 numbers have only two digits, 0 and 1
+				  Base 10 numbers have 10 digits, 0...9
+				  
+				  Example 1:
+				   0  1  0  1  1  0   <- binary digits
+				  32 16  8  4  2  1   <- place value
+				  
+				  The binary number in base 10 is ??????????????
+				  
+				  
+				  Example 2:
+				   1   1   0   1   1   1   <- binary digits
+				  32  16   8   4   2   1   <- place value
+				  
+				  The binary number in base 10 is ??????????????
+
+				  
+				  Example 3:
+				   0   0   1   1   1   1   <- binary digits
+				  32  16   8   4   2   1   <- place value
+				  
+				  The binary number in base 10 is ??????????????
+
+				  
+Sample Output:
+				
+Binary Numbers
+
+
+Enter a number to convert into binary: 20
+
+The number 20 in binary form is 0b10100
+
+Enter a number to convert into binary: 16
+
+The number 16 in binary form is 0b10000
+
+Enter a number to convert into binary: 18
+
+The number 18 in binary form is 0b10010
+
+Enter a number to convert into binary: 
+				  
+
+	############################################################################
+	Base Eight Numbers
+    ############################################################################
+	Program #23 - Write a program that prompts the user to enter a number.
+				  Print out the number in base 8.
+				  You can use the integer type for your variable.
+				  Call the oct(number) function to find the result (String).
+				  Stay in a loop until the user enters 0
+
+				  Base 8 numbers have 8 digits, 0...7
+				  Base 10 numbers have 10 digits, 0...9
+				  
+				  Example 1:
+				  0   3  5   <- octal digits
+				  64  8  1   <- place value
+				  
+				  The octal number in base 10 is ??????????????
+				  
+				  
+				  Example 2:
+				  0   2  0   <- octal digits
+				  64  8  1   <- place value
+				  
+				  The octal number in base 10 is ??????????????
+				  
+
+				  Example 3:
+				  0   2  7   <- octal digits
+				  64  8  1   <- place value
+				  
+				  The octal number in base 10 is ??????????????
+				  				 
+				  
+
+				  Sample Output:
+				 
+				  Base Eight Numbers
+				 
+				 
+				  Enter a number: (user enters maybe 17)
+				 
+				  17 in base 8 is 21.
+				 
+				 
+				  Enter a number: (user enters maybe 15)
+				 
+				  15 in base 8 is 17.
+				 
+				 
+				  Enter a number: (user enters maybe 0)
+				 
+				  Goodbye!
+				  
+				  
+
+	############################################################################
+	Base Sixteen (Hex) Numbers
+   	############################################################################
+	Program #24 - Write a program that prompts the user to enter a number.
+				  Print out the number in base 16.
+				  You can use the integer type for your variable.
+				  Call the hex(number) function to find the result (String).
+				  Stay in a loop until the user enters 0
+
+				  Base 16 numbers have 16 digits, 0...9, A, B, C, D, E, F
+				  Base 10 numbers have 10 digits, 0...9
+				  
+				  Example 1:
+				    0   2  5   <- hex digits
+				  256  16  1   <- place value
+				  
+				  The hex number in base 10 is ??????????????
+				  
+				  
+				  Example 2:
+				    0   1  C   <- hex digits
+				  256  16  1   <- place value
+				  
+				  The hex number in base 10 is ??????????????
+				  
+				  
+				  Example 3:
+				    0   2  A   <- hex digits
+				  256  16  1   <- place value
+				  
+				  The hex number in base 10 is ??????????????
+				  				  
+							  
+
+				  Sample Output:
+				 
+				  Base Sixteen (Hex) Numbers
+				 
+				 
+				  Enter a number: (user enters maybe 17)
+				 
+				  17 in base 16 is 10.
+				 
+				 
+				  Enter a number: (user enters maybe 45)
+				 
+				  45 in base 16 is 2d.
+				 
+				 
+				  Enter a number: (user enters maybe 0)
+				 
+				  Goodbye!
+
+
+	
+	############################################################################
+	Simple Encryption
+    ############################################################################
+	Program #25 - Write a program that prompts the user to enter a String (a message).
+				  Print out the encrypted string based on the following algorithm.
+				  Write a function to find the result (String).
+				  Stay in a loop until the user enters 0
+
+				  def encrypt(s):
+				  
+				        # this string will hold the encrypted form
+						encryptedString = ""
+						
+						for i in range(0,len(s)):
+							# get the character in the ith position of s
+							ch = s[i]
+	
+							# convert the character into numeric format
+							# use the ord(ch) function
+							x = ord(ch)
+	
+							# change the value of x by adding four or adding seven
+							# based upon it's position within the String
+							# if the i is an even number, add 4 to x
+							# else add 7 to x
+							if i % 2 == 0:
+								x = ?????
+							else:
+								x = ?????
+	
+	
+							# convert x back into it's character format
+							# use the chr() function
+							ch = ?????
+	
+	
+							# add the character to the end of encryptedString
+							encryptedString = encryptedString + ch
+						
+				  
+						return your encryptedString 
+				  
+				  
+
+				  Sample Output:
+				 
+				  Encryption
+				 
+				 
+				  Enter a message: (user enters maybe Hello World)
+				 
+				  Hello World encrypted is Llpss'[vvsh
+				 
+				 
+				  Enter a message: (user enters maybe Python is fun!)
+				 
+				  Python is fun! encrypted is ???????
+				 
+				 
+				 
+				  Enter a message: (user enters maybe nothing)
+				 
+				  Goodbye!
+				  
+				  
+
+	############################################################################
+	Simple Decrypt
+    ############################################################################
+	Program #26 - Write a program that prompts the user to enter a String (a message)
+	              in encrypted form using the algorithm above.
+				  Print out the decrypted string based on reversing the algorithm above.
+				  Write a function to find the result (String).
+				  Stay in a loop until the user enters 0
+
+				  def decrypt(encryptedString)
+				  
+                      # reverse what you did in the above problem
+                      # you will get characters from one by one
+                      # encryptedString, convert them, and then add
+                      # them to s
+                      
+                      s = ""
+                      
+                      # put your code here
+                      
+                      
+                      return s
+                      
+                      				  
+				  
+
+				  Sample Output:
+				 
+				  Encryption
+				 
+				 
+				  Enter a message: (user enters maybe Llpss'[vvsh)
+				 
+				  Llpss'[vvsh decrypted is Hello World
+				 
+				 
+				  Enter a message: (user enters maybe Nhzh$pw'j|r()
+				 
+				  Nhzh$pw'j|r( decrypted is Python is fun!
+						 
+				 
+				  Enter a message: (user enters maybe nothing)
+				 
+				  Goodbye!
+				  
+				  
+	############################################################################
+	Simple Lists (Arrays)
+    ############################################################################
+	Program #27 - Write a program that finds the largest number in a list (Array).
+				  Write a function to do this.  Do not use max()!  Use a loop.
+				  
+	def findLargest(array):
+	   largest = array[0]  # so far
+	   
+	   # now loop through all the numbers in the list
+	   for number in array:
+	       # see if number > largest, and if so,
+	       #     largest = number		  
+				  
+	   # return the value of largest
+	  
+	   
+	# in your main program
+	
+	# print the title "Largest Number"
+	
+	# print 2 blank lines			  
+				  
+
+	one = [12,3,6,8,14,12,1]
+	two = [1,2,8,4,9,6,6,8,2]
+				  
+	largestOfOne = findLargest(one)
+	
+	# now print it!
+	The largest number in array one is 14.
+		
+	# print a blank line
+	
+		
+	# now do array two
+	
+	largestOfTwo = findLargest(two)
+
+	# print out The largest number in array two is 9.
+	
+	
+				  
+	############################################################################
+	Simple Lists (Arrays)
+    ############################################################################
+	Program #28 - Write a program that finds the number of even numbers in the array.
+				  Write a function to do this.
+				  
+	def countEvens(array):
+	    count = 0
+	    
+	    # loop through all of the numbers in array
+	    
+	    # each time check and see if the number is even, and if so,
+	    #     add 1 to your count variable
+	    
+	    # return the count
+				  
+				  
+	
+				  
+				  
+	# in your main method
+	one = [12,3,6,8,14,12,1];
+	two = [1,2,8,4,9,6,6,8,2];
+				  
+	numberOfEvens = countEvens(one)
+	# now print it!
+	The number of even numbers in array one is 4
+			
+	# now do array two
+	numberOfEvens = countEvens(two)
+	# now print it!
+	The number of even numbers in array two is 7
+	
+
+
+	############################################################################
+	Simple Lists (Arrays)
+    ############################################################################
+	Program #29 - Write a program that finds the average of the numbers in the array.
+				  Write a function to do this.
+				  
+	def findAverage(array):
+	    sum = 0
+	    count = 0
+	    
+	    # loop through each number in the array, 
+	    # and add it to your sum. 
+	    
+	     
+	        # sum = ??? + ???????
+	    
+	        # add 1 to your count
+				  
+		# return your average	(sum / count)	  
+	
+				  
+				  
+	# in your main method
+	one = [12,3,6,8,14,12,1]
+	two = [1,2,8,4,9,6,6,8,2]
+				  
+	averageOne = findAverage(one)
+	
+	# now print it!
+	The average of the numbers in list one is ???.?
+	
+	# print a blank line
+			
+	# now do array two
+	
+	############################################################################
+	Simple Arrays
+    ############################################################################
+	Program #30 - Write a program that finds and prints the first 
+	              n fibonacci numbers.
+				  Write a function to do this.
+				  
+	def findFibonacciNumbers():
+	
+		list = [1, 1] # start with the first two numbers and append more
+		
+		for i in range(2,20):
+		    # find the next fibonacci number
+		    # nextNumber = ????
+		    
+		    
+			# list.append (?????)
+		
+		# return your list
+		
+	
+	def printFiboList(list):
+	    # add code to print all the numbers in your list
+	    # on the same line.	 Separate your numbers with a space
+	    	  
+				  
+				  				  
+	# in your main method
+		
+	# print a title
+	# print 2 blank lines
+
+    while True:			  
+	    # Ask the user for how many fibonacci numbers that they want to see
+	    # num = ?????
+	    
+	    
+	    # if they enter 0, break out of the loop
+	    
+	
+	    # below we call our function to create the list of fibonacci numbers
+	    fiboList = findFibonacciNumbers(num)
+	
+	
+	    # we now print the fibonacci numbers all on the same line
+	    # by calling a function to do this
+	    printFiboList(fiboList)
+	    
+	    # print a blank line
+
+    print()
+    print("Goodbye")
+	
+
+	
+	############################################################################
+	Simple Arrays
+    ############################################################################
+	Program #31 - Write a program that finds if an array is strictly increasing.
+				  Write a method to do this.  Strictly increasing means that 
+				  the numbers continue to increase.
+				  Example 1:
+				  [1, 5, 7, 12, 70, 80] is strictly increasing
+				  [1, 5, 5, 12, 70, 80] is NOT strictly increasing (5 - 5)
+				  [1, 5, 7, 6, 70, 80] is NOT strictly increasing (7 - 6) 
+				  
+				  
+	def isStrictlyIncreasing(array):
+	    # return true if it is strictly increasing else false
+	    # you will need a for indexed based loop
+	    # access each ith number and see if it is greater than or equal to
+	    # the i+1 element, and if so return False
+		# after the loop is over, return True
+				  
+				  
+	
+				  
+				  
+	# in your main method
+				  
+	one = [1,3,6,8,14,16,18]
+	two = [1,2,8,4,9,6,6,8,2]
+				  
+	if isStrictlyIncreasing(one):
+	
+			# print that the number is strictly increasing
+	
+	else:
+	
+			# print that the number is NOT strictly increasing
+	
+	
+
+	# now do array two
+	
+	
+	############################################################################
+	Simple Arrays
+    ############################################################################
+	Program #32 - Write a program that trims the noise from a music file.
+				  
+	def printMusic(samples)
+        # print out each number in the list followed by space		
+		# use a for loop (either a for indexed base loop or a for each loop)
+				  
+				  
+	
+
+
+	def trimNoise(samples, amplitude):
+	    # if a number in the list > amplitude then change the 
+	    # value to amplitude   list[i] = amplitude	
+	    # if a number in the list < -amplitude then change the 
+	    # value to -amplitude   list[i] = -amplitude
+	    # you will need to loop through each element with a 
+	    # for indexed loop.	
+		
+				  
+				  
+	
+				  
+	# in your main part
+	
+	samples = [40,2532,17,-2300,-17,-4000,2000,1048,-420,33,15,-32,2030,3223]
+
+    print("The original list of numbers are:")
+    
+    printMusic(samples)
+    # your original list should be:
+    40 2532 17 -2300 -17 -4000 2000 1048, 420 33 15 -32 2030 3223
+
+    print()
+						
+	trimNoise(samples, 2000)
+
+    print("The trimmed list of numbers are:")
+	
+	# now print out the music again
+	printMusic(samples)
+
+    # your trimmed list should be:
+    40 2000 17 -2000 -17 -2000 2000 1048, 420 33 15 -32 2000 2000
+
+
+	############################################################################
+	List
+    ############################################################################
+	Program #33 - Write a program that reads in the names of people and their
+	              age.  Print the name and age on the console one per line.  
+	              Use 2 Lists.
+
+		      The List has the following functions and methods!
+
+		      list.append(object)         - adds an object to the end of the list
+
+		      list.insert(index, object)  - inserts the object at the given position
+
+		      len(list)                   - returns how many objects are in our list
+
+			  list.reverse()              - reverses the list
+
+			  list.sort()                 - sorts the list (small to large)
+			  
+			  list.remove(object)         - removes object from list (others slide down)
+
+			  list.pop()                  - removes and returns the last object in the list
+			  
+			  max(list)                   - returns the largest object
+			  
+			  min(list)                   - returns the smallest object
+			  
+			  list[0]                     - accesses the object in the zero position
+			  
+			  
+
+				  
+	def printNamesAndAges(names, ages):
+	    # you should print out each name and age on the same line
+	    # (one person per line)
+	    # use a for loop
+	    
+		for i in range(0,len(names):
+		    # print the name and age
+				  
+
+
+				  
+	# in your main method
+
+
+	# create an empty List that can hold names and another for the ages
+
+	names = []
+	
+	ages = []
+	
+
+	# use a while loop since we do not know how many names
+
+
+	while True:
+	
+		# prompt the user to enter a person's name
+		name = ?????("......")
+		
+		# if name is empty break
+			
+				
+		# prompt the user to enter that person's age
+		name = ?????("......")
+
+        # if they enter nothing, we will assume that they are finished
+        # and break out of the loop
+		if name == "":
+		    break
+		    
+		# add the name to our list of names
+
+		names.append(???)
+
+		# add the age to our list of ages
+
+        ages.append(???)
+        
+        # print a blank line
+        
+        print()
+        
+	
+    print() 
+    
+	# now print out the names and ages
+	printNames(names, ages)
+
+    print()
+    
+    # now sort the names and print them out again
+	# you should notice a problem!!!!!!!!!
+
+
+	############################################################################
+	List
+    ############################################################################
+	Program #34 - Write a program that reads in the names of items and the
+	              cost of some items that you buy.  You will use the float
+	              data type rather than the int data type.  So cast your input
+	              to a float(input(......)) rather than int(input(......)) 
+				  Print out each product name and cost on the same line 
+				  of the console.
+				  Then print the total cost of all of the items.  Use a List
+				  to hold the names and a separate list to hold the costs.
+
+
+				  
+	def printItemsAndCosts(costs):
+	    # print each item's name and the cost for that item.
+	    # use a loop
+		
+				  
+				  
+	
+
+	
+	def getTotalCost(costs):
+	    # find the total cost for all items and return it
+	    # use a loop
+	    
+	    sum = 0
+		
+		# now a loop to add each cost to the sum
+		
+		
+		# now return the cost		  
+				  
+	
+
+	
+	def printTotalCost(costs):
+		# print the total cost of all items
+		# print out:  Total Cost: $xxxx.xx
+		
+		totalCost = getTotalCost(costs)
+		
+		# now print it
+				  
+				  
+	
+
+				  
+	# in your main method
+
+	items = []  # creates an empty list to hold all the names of the items
+	costs = []  # creates an empty list to hold the cost of each items
+	
+
+	
+	# read in all of the costs
+	# use a while loop since we do not know how many costs
+
+
+	while True:
+
+		# prompt the user to enter the name of the item
+		
+		# if the name is empty, break out of the loop
+		
+	
+		# prompt the user to enter the cost of the item
+		# remember to type cast it to a float
+
+
+		# add the name of the item to our list of items
+
+		items.append(???)
+
+		
+		# add the cost to our list of costs
+
+		costs.append(???)
+
+	
+
+	# now print out the costs
+	printCosts(costs)
+
+	printTotalCost(costs)
+	
+	print()
+	print()
+	
+	
+	
+CLASSES ARE NOW USED!!!!!!!!
+
+
+
+	############################################################################
+	List
+    ############################################################################
+	Program #35 - Write a class that stores information about a student (Student).
+				  Store in the class the first name, last name, quarter 1 grade,
+				  quarter 2 grade, and the average. 
+	
+	# You must include this import statement as your first line
+	# in your code
+	from operator import attrgetter
+	
+	class Student:
+	
+		# we generally put our class variables or static variables here
+		# these variables are shared by all objects
+		# however, we won't need any for this assignment
+		
+		
+		# We then generally define a constructor 
+		# to create and initialize our instance variables (members)
+		def __init__(self, firstName, lastName, q1, q2):
+		
+			self.firstName = firstName  # creates instance variable self.firstName
+			self.lastName = lastName # creates instance variable self.lastName
+
+            self.q1 = ?
+            
+            self.q2 = ?
+		
+		    self.average = ??? # calculate the semester grade
+		
+		
+		def getFirstNameLastName(self)
+		    # return self.firstName + " " + self.lastName
+			return ???
+		
+	
+	
+	# this is NOT inside the class			
+    def printStudents(students):
+        # print out each student's full name, q1, q2, and average
+        # use a for each loop
+        
+        for student in students:
+            # student is referring to one student in the list
+            # you can access info in the student's object by using:
+            # student.firstName, student.lastName,
+            # student.q1, student.q2, student.average
+            # you can also called any functions inside the Student class
+            # student.getFirstNameLast()  but don't pass it self
+            
+            # so print this student's full name, q1, q2, and average
+            	
+		
+	# this is NOT inside the class			
+    def findTheStudentWithTheHighesAverage(students):
+        # Define a variable to refer to the student with
+        # the highest grade.  Assign to it students[0]
+        studentWithHighestAverage = ?????
+        
+        
+        # use a for each loop to see if anybody has a higher average
+        # Below is a for each loop.
+        # You could also use a for indexed based loop
+        # for i in range(0,len(students)):
+        
+        for student in students:
+            # student is referring to one student in the list
+            # you can access info in the student's object by using:
+            # student.firstName, student.lastName,
+            # student.q1, student.q2, student.average
+
+            
+            # See if student has a higher grade than studentWithHighestAverage,
+            # and if so, then studentWithHighestAverage should now refer to 
+            # student.
+            if ?????????.average > ???????.average:
+                studentWithHighestAverage = ??????
+        
+        return ??????????
+        
+             	
+		
+	# this starts the main program
+	students = []  # creates an empty list
+			
+
+
+	# use a while loop since we do not know how many persons
+
+	while True:
+		
+		# prompt the user to enter a person's first name
+		# read it in using input()
+		firstName = input("Enter the person's name: ");
+				
+		# if empty break out of the loop
+		
+		# prompt the user to enter a person's last name
+		# read it in  using input("?????????")
+		
+		
+		# prompt the user to enter a student's q1 grade
+
+
+		# prompt the user to enter a student's q2 grade
+
+				
+		# creates a Student object and passes to it the info
+		student = Student(firstName, lastName, q1, q2)
+		
+		
+		# add the Student object to our list
+
+		students.append(???)
+
+
+			
+
+	# now print out the students, their q1 and q2 grade, 
+	# and their average
+	printStudents(students)
+	
+	# Now sort the students 
+	students = sorted(students, key=attrgetter('lastName','firstName'))
+    # only works with the import statement from operator import attrgetter
+
+	# now print out the students, their q1 and q2 grade, 
+	# and their average
+	printStudents(students)
+
+			
+	############################################################################
+	List of Objects
+    ############################################################################
+	Program #36 - Write a class that stores information about a product to buy.
+				  Store in the class the barcode, item name, price,
+				  inventory, and the amount of tax to charge. 
+	
+class Item:		
+		
+    # We then generally define a constructor or initializer 
+    # to create and initialize our instance variables (members).
+    # When an Item is created (and we can create many of these)
+    # we send to this constructor or initializer the information
+    # which is then stored temporarily in the parameter variables.
+    # barcode, itemName, price, inventory, and taxRate are the names of
+    # the parameter variables that receive the incoming data.
+    # self.barcode, self.itemName, self.price, self.inventory,
+    # and self.taxRate are the instance variables which are permanent.
+    # The parameter variables are created, assigned the incoming values,
+    # but then are destroyed at the end of the function.
+    def __init__(self, barcode, itemName, price, inventory, taxRate):
+		
+        self.barcode = barcode   # creates instance variable self.barcode
+        self.itemName = itemName # creates instance variable self.itemName
+
+        self.price = ?????
+            
+        self.inventory = ???????
+		
+        self.taxRate = ????????   # the tax is the percent (like maybe 0.0825)
+		
+		
+    def getTaxOnItem(self):
+        # return the tax for this sale (taxRate * price)
+        return 0  # change this (do the math)
+		
+	# END OF class
+	
+	
+# this is NOT inside the class			
+def printItems(items):
+    # print out each item's name, price, and tax to be paid
+    # use a for each loop
+        
+    for item in items:
+        # item is referring to one item in the list called items
+        # you can access info in the item's object by using:
+        # item.barcode, item.itemName,
+        # item.price
+        # you can also call any functions inside the Item class
+        # For example: item.getTaxOnItem()  but don't pass it self
+
+            
+        # so print this item's name, price, and tax to be paid
+
+            
+        # Also, if an item is low on inventory (less than 5)
+        # print out the message Low Inventory: Only ? items left
+            	
+	    
+	    # print a blank line
+        print()
+        
+        
+    return	    
+
+
+def searchForItemByBarcode(items, barcode):  
+    for item in items:
+        if item.??????? == ???????:
+            return item
+    return "" # we did not find the item with this barcode
+        
+
+		
+# this starts the main program
+
+# items will be a list that holds all of the items in our store.
+items = [] 
+
+# We will now add Item objects to our list of items		
+item = Item("78645", "Bread", 3.99, 55, 0.0825)
+items.append(item)
+    
+item = Item("79644", "Campbell's Vegetable Soup 8 oz", 2.49, 3, 0.0825)
+items.append(item)
+    
+item = Item("79645", "Amy's Vegetable Soup 8 oz", 2.37, 2, 0.0825)
+items.append(item)
+
+item = Item("79688", "Amy's Vegetable Soup 12 oz", 3.49, 12, 0.0825)
+items.append(item)
+
+
+# these would be scanned and we would get the barcode 1 by 1
+# this program the basics of how this would work
+itemsToBuy = ["78645", "79645"] # for the customer to buy
+
+
+
+# search for items and print out the name, cost, and tax for each
+# item.  Also add up the total cost, total tax paid, and the 
+# final bill to be paid.
+
+totalCost = 0.00
+    
+totalTax = 0.00
+    
+    
+for barcode in itemsToBuy:
+		
+	# find the item in the items list by calling the 
+	# function searchForItemByBarcode and passing or 
+	# sending to it the items and the barcode in that order.
+
+    item = searchForItemByBarcode(?????, ??????)
+    
+    # use item.price to refer to the price of this item
+    # use item.inventory to refer to the inventory of this item
+			
+    totalCost = ????? + ????????
+    
+    totalTax = ?????? + item.getTaxOnItem()
+    
+    
+# now print out the total cost without tax, the amount of tax to pay, 
+# and the final bill
+finalBill = ????   # do the math
+    
+# print it here with one value per line
+# For example:  print("Total cost:   ", totalCost)
+# then you would print your total tax, and then your final bill.
+?????????
+?????????
+?????????
+
+print()
+print("Thank you for shopping at The Best Store")
+print()
+
+
+		
+		
+	############################################################################
+	List of Objects
+    ############################################################################
+	Program #37 - Write a class that stores information about your driving record.
+				  Store in the class the driver's license, name, and license plate.
+
+	
+class DriversRecord:		
+
+    def __init__(self, license, name, licensePlate):
+		
+		# create self.license, self.name, and self.licensePlate
+		# and assign the corresponding parameter values to the 
+		# self variables (instance variables or members)
+
+        self.????? = ?????
+            
+        self.????? = ???????
+		
+        self.????? = ????????
+		
+				
+	# END OF class
+	
+
+		
+# this starts the main program
+
+# drivers will be a list that holds all of the DriversRecord objects.
+# The list will start out empty.
+drivers = [] 
+
+
+# We will now add DriversRecord objects to our list of drivers		
+driver = DriversRecord("677892456", "Fred Baker", "AB7864")
+drivers.append(item)
+    
+# ADD THREE MORE PEOPLE
+# THE LICENSE MUST BE UNIQUE
+
+
+# Ask the user for the license number of whom you want to find.
+# The license will be a String, so do not type cast it. 
+licenseToFind = ??????
+    
+theDriver = ""  # this will hold the reference to the Driver if we find it
+
+found = False
+
+
+# Now we will go looking for the license and thus get the driver's info
+# We will look through all the drivers until we find it or the loop
+# ends.    
+for driver in drivers:
+    
+    # driver will refer to one DriversRecord  
+    if licenseToFind == driver.?????:
+        theDriver = ??????    # this should be the driver
+        found = ????   # boolean value (don't put False) 
+    			    
+    
+# check your found variable and see if it is == True
+    # print out all the information about the driver
+# else:
+    # print out an appropriate message (License not found.)
+
+
+print()
+
+
+
+	############################################################################
+	List of Objects
+    ############################################################################
+	Program #38 - You will be modifying program #37.
+	              
+				  
+    See code above and modify it.
+    Add an instance variable called points that holds an integer.
+    When you get a traffic ticket, depending on what you did wrong,
+    you get points added to your points (this is NOT a good thing
+    since the insurance companies can now charge you more money, and
+    if you get too many points, the DMV can take your license away).
+    You will need to modify your constructor (initializer).  You will
+    also need to add more object's to your list to test the printing
+    of the points and a possible loss of your driver's license.
+    
+	When you print the driver's information, add the points to your 
+	output and a message.
+	Example:  Points: 5
+	
+	Also, check and see if you have more than 10 points, and if so print 
+	out a message like:
+	Example:  Your license has been suspended.
+	
+
+
+
+
+	############################################################################
+	List of Objects
+    ############################################################################
+	Program #39 - You will be creating GameScore objects to hold the
+	              scores of several basketball games.
+
+// 1 GameScore Object
+//
+// We can create the object using the command or instruction:
+// game = GameScore("Boston Celtics", 116, "LA Lakers", 112)
+//
+// If we have a variable called game that
+// refers to this object in RAM memory, we
+// can use commands or instructions like:
+// game.team1
+// game.points1
+// game.team2
+// game.points2
+
+//
+// This command or instruction would create room in RAM memory that
+// could hold our information.  It will run our init function after
+// reserving room in the RAM that will put the info in the object
+// for us.
+//
+// The variable named game would actually hold the memory address of where
+// the object was created in RAM memory, and thus we say that it refers to
+// (or points to) the object.  RAM memory is byte addressable.
+// We have byte 0, byte 1, byte 2, ... byte 78456, byte 78455, ...
+// The OS determines where our object will be stored in RAM memory.
+// The OS keeps a map of all used memory.
+// So, maybe we would get a location starting at byte 78456,
+// and thus game would hold that number for us.
+
+// game
+// ============
+// |  78456   |
+// ============
+
+
+//
+// game would refer to this object stored at
+// memory location 78456
+
+//
+// Location 78456
+// =====================================
+// |   team1                           |
+// |   =============================   |
+// |   | "Boston Celtics           |   |
+// |   =============================   |
+// |                                   |
+// |   points1                         |
+// |   =============================   |
+// |   | 116                       |   |
+// |   =============================   |
+// |                                   |
+// |   team2                           |
+// |   =============================   |
+// |   | LA Lakers                 |   |
+// |   =============================   |
+// |                                   |
+// |   points2                         |
+// |   =============================   |
+// |   | 112                       |   |
+// |   =============================   |
+// |                                   |
+// |   init                            |
+// |   =============================   |
+// |   | code goes here            |   |
+// |   | code goes here            |   |
+// |   | code goes here            |   |
+// |   | code goes here            |   |
+// |   | code goes here            |   |
+// |   =============================   |
+// |                                   |
+// =====================================
+
+
+
+class GameScore:    
+    
+    def __init__(self, team1, points1, team2, points2):
+        self.team1 = team1
+        self.points1 = points1
+        self.team2 = team2
+        self.points2 = points2
+    # end of init function
+    
+    # END OF CLASS    
+
+
+
+# NOTE: games is plural because we are
+#       referring to possibly many GameScore objects
+
+# HOW WOULD I CREATE an array or list that can hold
+# GameScore objects????????????
+games = []
+
+
+# THIS WILL create a GameScore object and then add it
+# (or append it) to our games list (array)
+game = GameScore("Boston Celtics", 116, "LA Lakers", 112)
+games.append(game)
+
+
+# THIS WILL create a GameScore object and then add it
+# (or append it) to our games list (array)
+game = GameScore("San Antonio Spurs", 128, "Detroit Pistons", 96)
+games.append(game)
+
+
+# THIS WILL create a GameScore object and then add it
+# (or append it) to our games list (array)
+game = GameScore("Houston Rockets", 124, "Indiana Pacers", 119)
+games.append(game)
+
+
+# THIS WILL create a GameScore object and then add it
+# (or append it) to our games list (array)
+game = GameScore("Dallas Mavericks", 117, "New York Knicks", 115)
+games.append(game)
+
+
+
+# print the title "Game Scores"
+# ??????
+
+    
+# PRINT A BLANK LINE
+# ?????
+
+    
+# PRINT A BLANK LINE
+
+
+print("Here are the scores printed from an array:")
+
+print("===============================================")
+
+# NOW LET'S LOOP THROUGH THE ARRAY
+# one GameScore object at a time
+
+# HOW MANY games are in the games array or list?????
+for i in range(0, len(games)):
+        
+    # HOW WOULD I ACCESS that game's team1 field (variable) ???????
+    # games[?].team1
+    print("Team:  ", ???????)
+
+    
+    // HOW WOULD I ACCESS that game's points1 field (variable)???????
+    print("Score: ", ????????)
+    
+    print()
+
+    # HOW WOULD I ACCESS that game's team2 field (variable) ???????
+    ??????
+
+    
+    # HOW WOULD I ACCESS that game's points2 field (variable)???????
+    ??????
+
+    
+    // HOW WOULD I PRINT A BLANK LINE TO SEPARATE THE OUTPUT
+    // OF THIS GameScore object FROM THE NEXT GameScore object???????
+    ???????
+
+
+    print("===============================================")
+
+
+/*
+ Sample run:
+ 
+ Game Scores
+
+
+ Here are the scores printed from an array:
+ ===============================================
+ Team:   Boston Celtics
+ Score:    116
+
+ Team:   LA Lakers
+ Score:    112
+
+ ===============================================
+ Team:   San Antonio Spurs
+ Score:    128
+
+ Team:   Detroit Pistons
+ Score:    96
+
+ ===============================================
+ Team:   Houston Rockets
+ Score:    124
+
+ Team:   Indiana Pacers
+ Score:    119
+
+ ===============================================
+ Team:   Dallas Mavericks
+ Score:    117
+
+ Team:   New York Knicks
+ Score:    115
+
+ ===============================================
+
+ 
+*/
+
+ 
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #40 - Write a program that prints out a 2D array in matrix format and
+	              row major order.  Write a method to do the printing.
+				  Use print("%3d" % (element))
+				  
+				  
+	def printMatrix(matrix):
+				
+		for r in range(0, len(a)):
+			for c in range(0, len(a[r])):
+				print("%3d" % (a[r][c]), end=' ') # stay on row
+			print() # move to next row
+			
+				  
+	
+				  
+				  
+	# in your main program
+				  
+	one =  [ [1, 3, 6, 8,14,16,18], [1, 2, 3, 4, 5, 6, 7], [1, 2, 8, 4, 9, 6, 6] ]
+				   				  
+	two =  [ [2, 3, 6, 8,14,16,18], [3, 2, 3, 4, 5, 6, 7], [4, 2, 8, 4, 9, 6, 6] ]
+
+
+				   
+	# print matrix one
+	printMatrix(one)
+	
+	# now do array two
+	
+
+	
+	
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #41 - Write a program that prints out 1 row of a 2D array.  
+	              Write a method to do the printing.
+				  
+				  
+	def printRow(array):
+	    # Remember that array will be referring to just one row.
+	    # So, just print out the one row with each number formatted 
+	    # to take up three print positions.  You will need a loop.
+	    # You can use an indexed based loop like
+	    # for i in range(0, len(array)):
+	    #     num = array[i]
+	    #     and now print the number formatted
+	    # OR a for each loop like
+	    # for num in array:
+	    #     and now print the number formatted 
+		
+				  
+				  
+	
+				  
+				  
+	# in your main method
+
+	# In the list below: 
+	# one[0] is referring to [1, 3, 6, 8,14,16,18]  
+	# one[1] is referring to [1, 2, 3, 4, 5, 6, 7]
+	# one[2] is referring to [1, 2, 8, 4, 9, 6, 6]
+	# in the list below, len(one) is 3 (since there are 3 lists or 3 rows)
+	# in the list below, len(one[0]) is 7 (since there are 7 elements in the 0 list)
+	one =  [ [1, 3, 6, 8,14,16,18], [1, 2, 3, 4, 5, 6, 7], [1, 2, 8, 4, 9, 6, 6] ]
+	
+	
+	two =  [ [2, 3, 6, 8,14,16,18], [3, 2, 3, 4, 5, 6, 7], [4, 2, 8, 4, 9, 6, 6] ]
+
+	
+	# print the first element in one's first line
+	print(one[0][0])
+	
+	# print the second element in one's first line
+	print(one[0][1])
+
+	# print the third element in one's first line
+	print(one[0][2])
+
+	
+	# print row 0
+	printRow(one[0])
+	
+	
+	# now print row 1
+	
+	
+	# now print row 2
+
+	
+	# use a loop to print all rows by calling printRow for each row
+	for r in range(len(one)):
+
+
+
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #42 - Write a program that finds the sum of a row.
+                  Print all elements of the row followed by the sum.
+				  Make sure that your output is lined up properly.
+	              Write a method to do the printing.
+	
+	def findSum(array):
+	
+		# array will be a list (1d array)
+		# find the sum and return it
+		# You will need a loop (either for indexed or for each loop)
+	
+				  
+	def printRow(array):
+	
+		# array will be a list (1d array)
+				  
+				  
+	
+				  
+			  
+	def printSum(array):
+	
+		# array will be a list (1d array)
+		# call the findSum function 
+		# use 4 print positions (formatted)
+		
+				  
+				  			  
+				  
+	# in your main program
+
+	one =  [1, 3, 6, 8, 14, 16, 18] 
+	
+	
+	two =  [2, 3, 6, 8, 14, 16, 18]
+
+	
+	
+	# call printRow and then printSum for each 1d array
+	
+
+	
+
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #43 - Write a program that finds the sum of each row.
+                  Print all elements of the row followed by the sum.
+				  Make sure that your output is lined up properly.
+	              Write a method to do the printing.
+				  After doing this, write a method to print out the
+				  sum of each column.
+				  
+	def printRow(array):
+	
+		
+				  
+				  
+	
+				  
+			  
+	define printRowSum(array):
+		
+		
+				  
+				  
+	
+
+	
+	def printAllRowsAndSum(array):
+		
+		for r in range(0, len(array)):
+			printRow(array[r]);      # prints out row r
+			printRowSum(array[r]);   # prints the sum of row r
+				  
+				  
+	
+
+	
+	// call this method after printing out all rows and their sums
+	def printColumnSum(array, column):
+		
+		
+				  
+				  
+	
+				  
+
+	def printSumOfAllColumns(array):
+		
+		
+				  
+				  
+	
+				  
+				  
+	// in your main method
+				  
+	one = [ [1, 3, 6, 8, 14, 16, 18], [1, 2, 3, 4, 5, 6, 7], [1, 2, 8, 4, 9, 6, 6] ]
+				  
+	two = [ [2, 3, 6, 8,14,16,18], [3, 2, 3, 4, 5, 6, 7],[4, 2, 8, 4, 9, 6, 6]]
+
+				   
+	
+	// Do not use any loops here
+	// Just make method calls
+	
+	
+	
+
+
+
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #44 - Write a program that finds if X or O is a winner.
+				  Make sure that your output is lined up properly.
+	              Write a method to print out the game board, and then print 
+				  out who won.
+				  
+	def printBoard(board):
+	    # print out the board in matrix format
+	
+				  
+	def isWinnerHorizontally(player, board):
+	    # player should be either "X" or "O"
+	    # board should be a 2D array
+	    # return True if you find a winner
+	    # else return False
+	    
+	    # We will check row 0 first.
+	    # There is an easier way with loops.  Can you think of how
+	    # See if player is equal to board[0][0] and
+	    # player is equal to board[0][1] and 
+	    # player is equal to board[0][1] and 
+        if player == board[0][0] and player == board[0][1] and player == board[0][2]:	    
+		    return True
+			
+		# Now check row 1
+		
+		
+		# Now check row 2
+		
+		
+		# if none of the above are True, simply return False
+		return False	  
+				  
+	
+				  
+	def isWinnerVertically(player, board):
+		
+		
+				  
+				  
+	
+
+	def isWinnerOnDiagonal1(player, board):
+		
+		
+				  
+				  
+	
+				  
+
+	def isWinnerOnDiagonal2(player, board):	
+		
+				  
+				  
+	
+	def isWinner(player, board):
+	    # We will call each of the win methods above
+	    
+	    # See if player is a winner horizontally
+	    if isWinnerHorizontally(player, board):
+	        return True
+				  
+	    # See if player is a winner horizontally
+	    if isWinnerVertically(player, board):
+	        return True
+
+	    # See if player is a winner on the first diagonal
+
+
+	    # See if player is a winner on the second diagonal
+	    
+	    
+	    # if it gets here, return False since player is NOT a winner
+
+
+				  
+	# in your main method
+				  
+	board1 = [ ['X', 'O', 'X'], ['X', 'X', 'O'], ['O', 'O', 'X'] ]
+				       ]
+	board2 = [ ['X', 'O', 'X'], ['X', 'X', 'O'], ['O', 'O', 'X'] ]
+
+	board3 = [ ['X', 'O', 'X'], ['X', 'X', 'O'], ['O', 'O', 'X'] ]
+	
+
+				   
+	
+	printBoard(board1)
+	print()
+	if isWinner("X", board1):
+	    print("X is the winner on board1")
+	elif isWinner("O", board1):
+	    print("O is the winner on board1")
+	else:
+	    print("There is no winner on board1.  Cat's game!!!")
+	# print 2 blank lines
+	
+	
+	# DO THIS FOR board2
+	
+	
+	# DO THIS FOR board3
+	
+	
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #45 - Write a program that plays tic tac toe but lets the users
+	              enter the positions of where they want to play.
+	              You will need the functions that you wrote above.
+	              Copy and paste them into this program.
+				  Make sure that your output is lined up properly.
+
+
+# MAIN PROGRAM
+
+print("Tic-Tac-Toe")
+print()
+print()
+
+while True:  # outer loop of game to play another game
+
+    # we will create an empty board for this game
+    board = [ ['-', '-', '-'], ['-', '-', '-'], ['-', '-', '-'] ]
+	# print the board
+				  
+    while True: # inner loop that plays 1 game
+        # player X will choose the row and column to play on.
+        print("Player X's turn")
+        row = int(input("Enter your row to play on (1,2,3): "))
+        col = int(input("Enter your col to play on (1,2,3): "))
+        row = row - 1
+        col = col - 1
+        
+        board[row][col] = "X"
+        
+        # print the board
+        
+        
+        # check and see if "X" is a winner
+        # if so print out that X is a winner and break the loop
+        
+        
+        
+        print()
+        
+        # player O will choose the row and column to play on.
+        print("Player O's turn")
+        row = int(input("Enter your row to play on (1,2,3): "))
+        col = int(input("Enter your col to play on (1,2,3): "))
+        row = row - 1
+        col = col - 1
+        board[row][col] = "O"
+        
+        # print the board
+        
+        
+        # check and see if "O" is a winner
+        # if so print out that O is a winner and break the loop
+        
+        
+        
+        print()
+        print()
+        
+    print()
+    print()
+    playAgain = input("Would you like to play another game? (y or n)")
+    if playAgain == "n":
+        break  # breaks out of outer loop
+        
+print()
+print()
+print("Thank you for playing Tic-Tac-Toe.  I hope that you had fun!")
+
+        
+	
+	
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #46 - There are problems with the game above.
+	              Fix the problems.
+	              1) A player could play on another players move or his own.
+	                 Check the spot to see if it is available.
+	                 Wrap up the input process in a loop.
+	              2) A player could enter a row or column that is out of range.
+	                 Check and see if they are within the range.
+	                 Wrap up the input process in a loop.
+	              3) Add a function to see if the row and col are in range,
+	                 and the spot is an empty spot.
+	                 return True or False
+	              4) Call the function above in your main program to make
+	                 it more readable.
+	                 
+	                 
+
+	
+	
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #47 - You will be writing a program called Battle Ship.
+	              You will move your ship through dangerous waters 
+	              and avoid hitting the destroyers.
+	
+# Battle Ship
+
+# Put functions here
+# ==================
+def printBoard(board):
+    # code to print the board goes here
+    for row in range(0,len(board)):
+        for col in range(0, len(board[row])):
+            print(???????????, end='')
+        print()
+    return
+                         
+def copyBoard(board):
+    newBoard = []
+    for row in range(0,len(board)):
+        newRow = []
+        for col in range(0, len(board[row])):
+            newRow.append(board[row][col])
+        newBoard.append(newRow)
+
+    return newBoard
+
+def moveDestroyersDown(board):
+    # You will need to start at the last row and move all
+    # Distroyers off the board (set them to ' ').  Then
+    # continue by moving all Destroyers down by one
+    # When you move a destroyer down, erase it from it's
+    # current position, and then assign it to the row
+    # below.
+
+
+    # this clears the bottom row as these destroyers
+    # leave the area, or you could wrap them around.
+    lastRow = len(board) - 1
+    for col in range(0,len(board[0])):
+        board[lastRow][col] = ' '
+
+
+    shipIsHit = False
+
+    # Now move all the destroyers down 1 row
+    # but first check to see if the ship is
+    # in that spot.  If so, set shipIsHit to True.
+    # So, loop through all the rows for the outside loop
+    # Then loop through all the columns on the row (indexed loop)
+    # Inside the inner loop check to see if you have a destroyer,
+    # and if so see if it would hit your ship, and if so
+    # set shipIsHit to true.  Then move the destroyer down.
+    # DO NOT CHANGE THE row variable, just use:
+    # board[row+1][col] = 'D' 
+    ?????????
+    ?????????
+    ?????????
+    ?????????
+
+    return shipIsHit
+
+                     
+
+# Main program goes here
+# ==================
+
+# here is the board
+row0 = ['D', ' ', 'D', ' ', 'D' , 'D', 'D', ' ']
+row1 = ['D', ' ', ' ', ' ', ' ' , 'D', ' ', ' ']
+row2 = ['D', ' ', 'D', ' ', ' ' , 'D', ' ', ' ']
+row3 = [' ', ' ', ' ', ' ', ' ' , 'D', ' ', 'D']
+row4 = [' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ']
+row5 = [' ', 'D', ' ', 'D', 'D' , ' ', ' ', ' ']
+row6 = [' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ']
+row7 = [' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ']
+row8 = [' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ']
+row9 = [' ', ' ', ' ', '*', ' ' , ' ', ' ', ' ']
+
+board = []
+board.append(row0)
+board.append(row1)
+board.append(row2)
+board.append(row3)
+board.append(row4)
+board.append(row5)
+board.append(row6)
+board.append(row7)
+board.append(row8)
+board.append(row9)
+
+originalBoard = copyBoard(board)
+                         
+shipRow = 9
+shipCol = 3
+
+print("Battle Ship")
+print()
+print()
+
+while True:  # outer loop of game to play another game
+
+    # we will create a board for this game (optional)
+    # just reset it back to the beginning
+    # (call a function to do this)
+    board = copyBoard(originalBoard)
+
+    
+    # reset the ship's coordinates shipRow and shipCol
+    shipRow = 9
+    shipCol = 3
+
+    
+    # print the board
+    printBoard(board)
+
+				  
+    while True: # inner loop that plays 1 game
+        
+        # Ask the user how to move (left, up, right, or none)
+        print("You can move left (l), up (u), right (r), none (n), or quit (q)")
+        move = input("Enter how to move (l, u, r, n, q): ")
+
+        # handle the move if possible
+        # if this move attempts to go out of bounds, ignore it and
+        # stay put.
+        if move == 'l':
+            board[shipRow][shipCol] = ' '
+            shipCol = shipCol - 1
+            if board[shipRow][shipCol] == 'D':
+                print("You lose!!!")
+                break
+            board[shipRow][shipCol] = '*'
+        elif move == 'u':
+            board[shipRow][shipCol] = ' '
+            shipRow = shipRow - 1
+            if board[shipRow][shipCol] == 'D':
+                print("You lose!!!")
+                break
+            board[shipRow][shipCol] = '*'
+        elif move == 'r':
+            board[shipRow][shipCol] = ' '
+            shipCol = shipCol + 1
+            if board[shipRow][shipCol] == 'D':
+                print("You lose!!!")
+                break
+            board[shipRow][shipCol] = '*'
+        elif move == 'q':
+            break
+
+        # Now move the destroyers down
+        # Call your method
+
+        shipIsHit = moveDestroyersDown(board)
+
+        # Now see if your ship got hit
+        if shipIsHit == True:
+            print("You lose!!!")
+            break
+                     
+                     
+       
+        # print the new board
+        # call a function
+        printBoard(board)
+
+
+        # check for a win (reaching row 0) and
+        # if so, print out a win message and then break the loop
+        if shipRow == 0:
+            print("You win!!!  Great job!!!")
+            break
+        
+ 
+        print()
+        print()
+        
+    print()
+    print()
+    playAgain = input("Would you like to play another game? (y or n)")
+    if playAgain == "n":
+        break  # breaks out of outer loop
+        
+print()
+print()
+print("Thank you for playing Battle Ship.  I hope that you had fun!")
+
+	
+	
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #48 - You will be writing a program called Pascal's Triangle.
+	              You will need to generate Pascal's Triangle and then
+	              print it out.  Store the numbers in a 2 dimensional array.
+	              The first column is always a 1.  You will need to generate
+	              elements starting at row 1.
+	              1  0  0  0  0  0  0  0  0 
+	              1  1  0  0  0  0  0  0  0 
+	              1  2  1  0  0  0  0  0  0 
+	              1  3  3  1  0  0  0  0  0 
+	              1  4  6  4  1  0  0  0  0 
+	              1  5 10 10  5  1  0  0  0
+                  etc.
+                  
+                  
+def printMatrix(matrix):
+    # print the matrix in formatted form
+    
+    
+    print()
+
+
+
+def fillMatrixWithAllZeroes(matrix):
+    # we will now create all the rows and fill them with 0's
+    for row in range(0,9):
+        # creates an empty array
+        array = []
+        for col in range(0,9):
+            array.append(0)
+        # appends the array as a new row for the matrix
+        matrix.append(array)
+
+
+
+    
+def fillMatrix(matrix):
+    # fill the matrix
+    for row in range(1,9):
+        for col in range(1,9):
+            # change the row,col element to be
+            # the sum of the element directly above
+            # plus the element to the left of the element above
+            # matrix[row][col] = ??????
+
+
+
+
+# MAIN PROGRAM
+print("Pascal's Triangle")
+print()
+print()
+
+# this creates an empty matrix	              
+matrix = [] 
+
+# we will now fill it with 0's
+# call a function ???????
+
+# fill the first column with 1's.
+# use a single loop
+# look at the pattern below and
+# notice what is changing (the row)
+matrix[0][0] = 1
+matrix[1][0] = 1
+matrix[2][0] = 1
+matrix[3][0] = 1
+# etc.
+
+
+# now we can put the correct numbers into the array
+# for the other elements
+# call your method
+
+
+# now print the matrix
+# call your method from above
+
+
+print()
+print()
+print("Thank you for printing Pascal's Triangle.  I hope that you had fun!")
+   
+
+	
+
+
+	############################################################################
+	Arrays 2D
+    ############################################################################
+	
+	Program #49 - You will be writing a program that has an encrypt and 
+	              decrypt function.
+	              You will be using a 2D array (or matrix) to hold the
+	              translations.  
+	              We will only use capital letters.
+	              
+	              encryptMatrix
+	              A B C D 
+	              E F G H
+	              I J K L
+	              M N O P
+	              Q R S T
+	              U V W X
+	              Y Z . (space)
+	
+	              decryptMatrix
+	              Y Z . (space)
+	              U V W X
+	              Q R S T
+	              M N O P
+	              I J K L
+	              E F G H
+	              A B C D
+	              
+def encrypt(s):
+    # write the code to encrypt s (s is a String)
+    # Example 1:  "ABCD" would become "YZ. "
+    # Example 2:  "CAR" would become ".YJ"
+    
+    
+    return ???
+    
+    
+      
+def decrypt(s):
+    # write the code to encrypt s (s is a String)
+    # Example 1:  "YZ. " would become "ABCD"
+    # Example 2:  ".YJ" would become "CAR"
+	
+	return ???
+	
+	              
+# MAIN PROGRAM
+print("Encrypt - Decrypt")	
+print()
+print()
+
+while True:
+    # Ask the user to enter a string with all capitals
+    s = ???????
+
+
+    # if s is empty, then break
+    
+    
+    # Encrypt the String
+    e = ??????
+
+    # print e with a message
+    print("The encrypted string is " + e)
+
+    # decrypt e
+    s = decrypt(e)
+
+    # print s with a message
+    print("The decrypted string is " + s)
+
+
+print()
+print()
+print("Thank you encrypting and decrypting.  I hope that you had fun!")
+   
+   
+	############################################################################
+	Arrays 1D
+    ############################################################################
+	
+	Program #50 - You will be writing a program that is an English to  
+	              Spanish dictionary.
+
+# write a class to hold the english word and the spanish word(s).
+# include an init constructor which receives the english word and
+# the corresponding spanish word(s).  Your program should find the
+# word whether it is in upper or lower case or a combination.
+# You can convert to other languages as well.
+ 
+class Word:
+    # put your init function here
+
+
+# MAIN PROGRAM
+
+# this creates an empty
+words = []
+
+word = Word("House", "Casa")
+words.append(word)
+
+word = Word("Cat", "Gato, Gata")
+words.append(word)
+
+# add 4 more words
+# you can use google to look up more words
+
+
+print("English to Spanish Dictionary")
+print()
+print()
+
+found = False
+
+while True:
+    # ask the user to enter the english word that they want to find
+    # in order to get the corresponding spanish word
+    englishWord = ????("Enter the English word: ")
+    
+    if englishWord == "":
+        break
+    
+    found = False
+    
+    word = ""
+    
+    # loop through the words and see if you find
+    #   it, and if you do, set word to refer to 
+    #   the word object that you found, and set 
+    #   found to True
+
+   
+    if found == True:
+        # print out the spanish word
+    else:
+        # print your word was not found
+
+    print()
+    
+print()
+print("Goodbye!")
+
+
+	############################################################################
+	Arrays 1D
+    ############################################################################
+	
+	Program #51 - You will be writing a program that plays BlackJack.  
+
+
+# MAKE SURE THAT YOU LEAVE THE COMMENTS IN PLACE
+# THIS WILL HELP YOU FIND YOUR ERRORS
+
+import random
+
+
+# This class holds information about one card
+# Create the class header
+# The class name should be Card  (with a capital C)
+class ????:
+    
+    # write the constructor header
+    def ????????(self, suit, kind, value):
+        self.suit = ????
+        self.kind = ????
+        self.value = ?????
+    
+    def getKindOfCard(self):
+        return self.?????
+        
+    def getCardValue(self):
+        return self.?????
+        
+    # END OF class
+
+
+# This function creates all the cards for one suit
+def createCards(cards, suit):
+    for c in range(1,14):
+        if c < 10:
+            card = Card(suit, str(c), c) 
+        elif c == 10:
+            card = Card(suit, "Jack", 10)
+        elif c == 11:
+            card = Card(suit, "Queen", 10)
+        elif c == 12:
+            card = Card(suit, "King", 10)
+        elif c == 13:
+            card = Card(suit, "Ace", 11)
+    
+        # We should now add this card to our cards array
+        cards.??????(card)
+    # end of for loop
+# END OF function
+    
+
+# THIS function can print any list of cards
+# It can print the playersHand, the dealersHand, or all the cards in the deck
+# You simply pass the appropriate list of cards to this function when you call it    
+def printCards(cards):
+    for card in ?????: # for each loop (for each card in the cards array)
+       print("%-10s %-10s" % (card.suit, card.kind))
+    print()
+    
+
+# This will get 1 card from the cards list (The deck of cards)    
+def getACard(cards):
+    # we will get a random card from the list of cards
+    x = random.randrange(0, len(cards)) # finds the position of a random card
+    
+    card = cards[x]  # card will now refer to this card object
+
+    del cards[x]  # we will now remove it from the cards list
+    
+    return card
+    
+    # END OF getACard
+
+
+# This will get the sum of all the cards in some hand of cards
+def getHandValue(cards):
+    
+    # We need to find the sum of all the card values 
+    sum = ?
+    for card in cards:
+        sum = ??? + card.getCardValue()
+    return ???
+    
+        
+    
+# MAIN PROGRAM
+
+# We create an empty cards list
+cards = ??
+
+# This will create all the cards
+for suit in ['Hearts', 'Diamonds', 'Spades', 'Clubs']:
+    createCards(cards, suit)
+
+
+# print(len(cards))
+   
+# uncomment the line below if you want to see all of your cards
+# printCards(cards)
+
+print ('Blackjack')
+print()
+print()
+
+# The playersHand will be empty to start.
+playersHand = ??
+
+# The dealersHand will be empty to start.
+dealersHand = ??
+
+# You have not won yet nor have you lost yet.
+wins = ?
+losses = ?
+
+# Let's start playing the game of BlackJack
+while True:
+    
+    # Set both the player's hand and the dealer's hand to hold nothing
+    playersHand = ??
+    dealersHand = ??
+    
+    # get 2 cards for the player
+    card = getACard(cards)
+    playersHand.append(card)
+    card = getACard(cards)
+    playersHand.append(card)
+
+    
+    # get 2 cards for the dealer and add them to the dealersHand
+    card = ??????(?????)
+    dealersHand.?????(??????)
+    card = ??????(?????)
+    dealersHand.??????(?????)
+    
+
+    while True:
+        print("Your cards are :")
+        # call the function printCards() and pass to it playersHand
+        ???????(???????)
+        
+        # Ask the user if they want another card
+        pickACard = ?????("Do you want another card (y or n)? ")
+        
+
+        # See if pickACard is equal to "y"
+        if ???????? ?? ???:
+            # get another card from the cards array
+            card = getACard(?????)
+            
+            # Now add this card to the playersHand
+            playersHand.append(card)
+        
+            
+        if getHandValue(dealersHand) < 16:
+            # get another card from the cards array
+            card = ???????(??????)
+            
+            # Now add this card to the dealersHand
+            dealersHand.??????(????)
+        
+        # get the hand value of the playersHand
+        if ??????????(???????) > 21:
+            print()
+            break
+
+        # See if pickACard is equal to "n"
+        ?????????
+            print()
+            break
+        
+        print()
+        
+        # END OF WHILE loop
+        
+    print()
+    
+    while getHandValue(dealersHand) < 16:
+        # get a card from the deck of cards
+        card = getACard(?????)
+        dealersHand.append(card)
+
+        
+    # Get the value of the player's hand
+    playersHandValue = ???????(???????)
+    
+    
+    # Get the value of the dealer's hand
+    dealersHandValue = ????????(????????)
+    
+    
+    # print out who wins for each of the following cases
+    # and print out the hand value for the player and the dealer
+    # Also add 1 to the wins if you win
+    # Add 1 to the losses if you lose
+    if playersHandValue <= 21 and playersHandValue > dealersHandValue:
+        ???? print out who won
+        print("Player's hand value:", playersHandValue)
+        print("Dealer's hand value:", dealersHandValue)
+        wins = ??????
+    elif playersHandValue <= 21 and dealersHandValue > 21:
+        ???? print out who won
+        print("Player's hand value:", playersHandValue)
+        print("Dealer's hand value:", dealersHandValue)
+        wins = ??????
+    elif playersHandValue <= 21 and playersHandValue == dealersHandValue:
+        ???? print out who won
+        print("Player's hand value:", playersHandValue)
+        print("Dealer's hand value:", dealersHandValue)
+        losses = ??????
+    elif playersHandValue > 21 and dealersHandValue > 21:
+        ???? print out who won
+        print("Player's hand value:", playersHandValue)
+        print("Dealer's hand value:", dealersHandValue)
+    elif dealersHandValue <= 21:
+        ???? print out who won
+        print("Player's hand value:", playersHandValue)
+        print("Dealer's hand value:", dealersHandValue)
+        losses = ????????
+    else:
+        print("Dealer wins!")
+        print("Player's hand value:", playersHandValue)
+        print("Dealer's hand value:", dealersHandValue)
+        losses = ????????
+     
+    print()
+    print("Wins:", ????, " Losses:", ?????)
+    print()
+    print()
+    
+    # Ask the user if they want to play another game
+    answer = ?????("Do you want to play another game (y or n)? ")
+    print()
+    
+    # See if the answer is 'n' and if so break the loop
+    ???????
+    
+
+print()
+print("Thanks for playing Blackjack!!!")
+print()
+print("Goodbye!")
+
+
+
+
+	############################################################################
+	Arrays 1D
+    ############################################################################
+	
+	Program #52 - You will be writing a program that creates some picture.  
+
+
+A sample python program with turtle graphics
+# allows us to access the turtle modules or code
+import turtle
+
+# creates the Turtle object
+t = turtle.Turtle()
+t.color("red")
+t.shape("turtle")
+t.pensize(5)
+
+# the code will execute with n having values
+# that keep changing each time through the loop
+# n will be 10, 20, 30, 40, 60
+n = 10
+while n <= 40:
+  # the blocked code gets executed for each
+  # value of n
+  print("We will draw a circle with the radius of",n)
+  t.circle(n)
+  n = n+10
+
+print()
+print(n)
+
+
+
+# A simple turtle graphics program
+import turtle
+
+t = turtle.Turtle()
+t.shape("turtle")
+t.pensize(5)
+
+u = input("Would you like me to draw a shape? Type yes or no: ")
+if u == "yes":
+  t.circle(50)
+elif u == "no":
+  print("Okay")
+else:
+  print("Invalid Reply")
+
+for c in ['red', 'green', 'yellow', 'blue']:
+    # the blocked code gets executed for each
+    # value of c
+    t.pendown()
+    t.color("green", c)
+    t.forward(75)
+    t.left(90)
+    t.forward(50)
+    t.penup()
+    t.forward(50)
+
+t.home()
+t.pendown()
+t.color('red','blue')
+t.circle(60)
+t.dot(30)
+
+n=10
+while n <= 40:
+  # the blocked code gets executed for each
+  # value of n
+  t.circle(n)
+  n = n+10
+
+
+
+
+=================================
+=================================
+End of Programming Assignments
+=================================
+=================================
+
+Back to the Top
+
+
+program01 outline
+program02 outline
+program03 outline
+program04 outline
+
+Some of NASA Inventions
+
+
+
